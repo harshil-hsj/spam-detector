@@ -1,0 +1,23 @@
+# Core packages
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Streamlit for web app
+streamlit==1.12.0
+
+# Text processing
+nltk==3.8.1
+
+# For saving and loading models
+joblib==1.2.0
+
+# For handling datasets
+scipy==1.10.0
+
+# Optional: For visualizations
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Optional: For better model performance analysis
+scikit-plot==0.3.8
