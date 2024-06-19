@@ -21,3 +21,6 @@ seaborn==0.12.2
 
 # Optional: For better model performance analysis
 scikit-plot==0.3.7
+
+# Altair for Streamlit visualizations
+altair==4.2.0
