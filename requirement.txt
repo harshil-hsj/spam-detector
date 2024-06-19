@@ -20,4 +20,4 @@ matplotlib==3.7.1
 seaborn==0.12.2
 
 # Optional: For better model performance analysis
-scikit-plot==0.3.8
+scikit-plot==0.3.7
