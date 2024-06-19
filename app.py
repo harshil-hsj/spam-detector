@@ -1,3 +1,4 @@
+import os
 import pickle
 import string
 
@@ -41,3 +42,9 @@ if st.button('Predict'):
         st.header("Spam")
     else:
         st.header("Not a spam")
+if "PORT" in os.environ:
+    port = int(os.environ["PORT"])
+else:
+    port = 8501  # default port for Streamlit
+
+st.set_option('server.port', port)
